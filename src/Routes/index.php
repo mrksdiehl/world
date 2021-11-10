@@ -8,7 +8,7 @@ Route::group([
 	'middleware' => [
 		'throttle:60,1',
 		'locale.set',
-		'bindings',
+		\Illuminate\Routing\Middleware\SubstituteBindings::class,
 	],
 ], function () {
 	/*-- Countries ---------------------------------------------------------------------------------------------------*/
