@@ -2,6 +2,7 @@
 
 namespace Nnjeim\World;
 
+use Illuminate\Support\Facades\Gate;
 use Nnjeim\World\Http\Middleware;
 use Nnjeim\World\WorldHelper;
 

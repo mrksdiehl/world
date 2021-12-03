@@ -22,4 +22,7 @@ return [
 		'ru',
 		'zh',
 	],
+    'middlewares' => [
+        //\App\Http\Middleware\YourMiddleware::class
+    ]
 ];

@@ -4,11 +4,12 @@ use Illuminate\Support\Facades\Route;
 use Nnjeim\World\Http\Controllers;
 
 Route::group([
-	'prefix' => '{prefix?}',
+	//'prefix' => '{prefix?}',
 	'middleware' => [
 		'throttle:60,1',
 		'locale.set',
 		\Illuminate\Routing\Middleware\SubstituteBindings::class,
+        ...config('world.middlewares')
 	],
 ], function () {
 	/*-- Countries ---------------------------------------------------------------------------------------------------*/
