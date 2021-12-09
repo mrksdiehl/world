@@ -61,7 +61,7 @@ return [
     'CU' => 'Cuba',
     'CW' => 'Curaçao',
     'CY' => 'Cyprus',
-    'CZ' => 'Czechia',
+    'CZ' => 'Czech Republic',
     'DK' => 'Denmark',
     'DJ' => 'Djibouti',
     'DM' => 'Dominica',
